@@ -13,7 +13,6 @@ import os
 import requests
 from datetime import date
 from datetime import datetime
-from time import sleep,strftime
 time=datetime.now().strftime("%H:%M:%S")
 
 checkip = requests.get(url=f"https://ipinfo.io/json")
