@@ -134,7 +134,7 @@ while True:
     print(syan+'ĐANG LẤY NHIỆM VỤ TIKTOK                        ',end="\r")
     while True:
         try:
-            getjob = requests.get("https://sv5.golike.net/api/advertising/publishers/tiktok/jobs?account_id="+str(listid[stt])+"&data=null",headers=head_login).json()
+            getjob = requests.get("https://dev.golike.net/api/advertising/publishers/tiktok/jobs?account_id="+str(listid[stt])+"&data=null",headers=head_login).json()
             link = getjob['data']['link']
             break
         except:
