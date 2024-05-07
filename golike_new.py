@@ -126,7 +126,7 @@ dung = int(input(do+"Sau bao nhiêu nhiệm vụ thì dừng: "+vang))
 try:
     erorr = int(input(do+f"Lỗi bao nhiêu nhiệm vụ thì dừng {luc}|{xlacay} [hoặc nhấn enter để bỏ qua nhiệm vụ lỗi]: "+vang))
 except:
-    erorr = 1
+    erorr = 1000
 os.system('clear')
 banner()
 print(syan+"NICK ĐANG CHẠY: "+trang+listname[stt]+"=> "+syan+"ID:"+trang+str(listid[stt]))
